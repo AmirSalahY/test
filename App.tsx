@@ -75,7 +75,7 @@ function App(): React.JSX.Element {
         <Header />
         <Image
           source={require('./src/assets/logo.jpg')}
-          style={{width: '100%', height: '10%'}}
+          style={{width: '90%', height: '10%'}}
         />
         <View
           style={{
