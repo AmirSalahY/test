@@ -5,9 +5,10 @@
  * @format
  */
 
-import React from 'react';
 import type {PropsWithChildren} from 'react';
+import React from 'react';
 import {
+  Image,
   SafeAreaView,
   ScrollView,
   StatusBar,
@@ -72,6 +73,10 @@ function App(): React.JSX.Element {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         <Header />
+        <Image
+          source={require('./src/assets/logo.jpg')}
+          style={{width: '100%', height: '10%'}}
+        />
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
