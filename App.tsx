@@ -5,7 +5,7 @@
  * @format
  */
 
-import type {PropsWithChildren} from 'react';
+import type { PropsWithChildren } from 'react';
 import React from 'react';
 import {
   Image,
@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
   sectionContainer: {
     marginTop: 32,
     paddingHorizontal: 24,
-    backgroundColor:"black"
+    backgroundColor: 'blue',
   },
   sectionTitle: {
     fontSize: 24,
